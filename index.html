@@ -169,7 +169,7 @@ const toast=document.getElementById('toast');
 function copy(t){
   (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).catch(()=>{
     const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove()});
-  toast.textContent='✓ 7otou fl epic taw yatl3lk cont te3i: '+t;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2200);
+  toast.textContent='hak 3mlt copier : '+t;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2200);
 }
 
 const words=['Roblox Developer Maps','Web Enthusiast','Mr7ba bik'];
