@@ -4,7 +4,7 @@
 
 # sLaZer
 
-**Gamer · Creator · Roblox Developer**
+**Gamer · RL player · Roblox Developer**
 
 [![Website](https://img.shields.io/badge/Website-slazer.pages.dev-e11d2e?style=for-the-badge)](https://slazer.pages.dev)
 
@@ -24,3 +24,5 @@
 ## 📁 About this repo
 
 Source code of my personal portfolio page, built with plain HTML, CSS and JavaScript (no frameworks) and hosted on Cloudflare Pages.
+
+Code source mta3 portfolio perso mte3i, ma3moul b HTML CSS JS bla frameworks, w hébergé fi Cloudflare Pages.
