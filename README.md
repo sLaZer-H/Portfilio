@@ -27,4 +27,10 @@ Source code of my personal portfolio page, built with plain HTML, CSS and JavaSc
 
 Code source mta3 portfolio perso mte3i, ma3moul b HTML CSS JS bla frameworks, w hébergé fi Cloudflare Pages.
 
-                                          © 2026 sLaZer — All rights reserved
+## 📬 Contact
+
+slazer.contact1@gmail.com
+
+---
+
+<div align="center">© 2026 sLaZer</div>
