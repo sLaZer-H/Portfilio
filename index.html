@@ -26,7 +26,7 @@ body{
   padding:max(24px,env(safe-area-inset-top)) 16px max(24px,env(safe-area-inset-bottom));
   overflow-x:hidden;position:relative;
 }
-/* الخلفية */
+
 .bg{position:fixed;inset:0;z-index:-2;background:
   radial-gradient(ellipse at 50% 0%,rgba(225,29,46,.28),transparent 60%),
   radial-gradient(ellipse at 50% 100%,rgba(127,13,24,.35),transparent 60%),
@@ -41,7 +41,7 @@ body{
   background-size:44px 44px;mask-image:radial-gradient(circle at 50% 40%,#000,transparent 70%);
   -webkit-mask-image:radial-gradient(circle at 50% 40%,#000,transparent 70%)}
 
-/* البطاقة */
+
 .card{
   width:100%;max-width:480px;background:var(--card);border:1px solid var(--line);border-radius:28px;
   padding:38px 26px 28px;text-align:center;position:relative;
@@ -75,7 +75,7 @@ h1{font-size:34px;font-weight:800;letter-spacing:.5px;
 .chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:18px 0 26px}
 .chips span{font-size:12px;padding:6px 12px;border-radius:99px;color:#d9d3ee;background:rgba(255,255,255,.04);border:1px solid var(--line)}
 
-/* الروابط */
+
 .links{display:grid;grid-template-columns:1fr;gap:12px}
 .link{
   display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:16px;text-decoration:none;color:var(--text);
@@ -129,7 +129,7 @@ h1{font-size:34px;font-weight:800;letter-spacing:.5px;
   <p class="typing" id="typing"></p>
 
   <div class="chips">
-    <span>🎮 Gaming</span><span>🧱 Roblox</span><span>💻 Web</span><span>🎬 Content</span>
+    <span>Gaming</span><span>Web</span>
   </div>
 
   <nav class="links" id="links" aria-label="الروابط"></nav>
@@ -158,7 +158,7 @@ const L=[
  {n:'Discord',s:'Join the server',u:'https://discord.gg/DhvU5ZxfTF',i:'discord',c:'#ff6b78'},
  {n:'Roblox',s:'Profile',u:'https://www.roblox.com/users/8978327534/profile',i:'roblox',c:'#d9162a'},
  {n:'GitHub',s:'sLaZer-H',u:'https://github.com/sLaZer-H',i:'github',c:'#f3f4f6'},
- {n:'Epic Games',s:'Shark sLaZer',copy:'Shark sLaZer',i:'epic',c:'#ff8a94'},
+ {n:'Epic Games',s:'sLaZer k2',copy:'sLaZer k2',i:'epic',c:'#ff8a94'},
  {n:'Contact',s:'slazer.contact1@gmail.com',u:'mailto:slazer.contact1@gmail.com',i:'mail',c:'#e11d2e',wide:1}
 ];
 const arrow='<svg class="arrow" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg>';
@@ -176,10 +176,10 @@ const toast=document.getElementById('toast');
 function copy(t){
   (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).catch(()=>{
     const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove()});
-  toast.textContent='✓ تم النسخ: '+t;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2200);
+  toast.textContent='hak 3mlt copier: '+t;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2200);
 }
-/* كتابة متحركة */
-const words=['Gamer · Creator','Roblox Developer','Web Enthusiast','Welcome to my world'];
+
+const words=['Gamer','Roblox Developer','Web Enthusiast','mr7ba bik'];
 const ty=document.getElementById('typing');let w=0,c=0,del=false;
 (function t(){
   const s=words[w];ty.textContent=s.slice(0,c);
@@ -188,7 +188,7 @@ const ty=document.getElementById('typing');let w=0,c=0,del=false;
   c+=del?-1:1;setTimeout(t,del?35:70);
 })();
 document.getElementById('y').textContent=new Date().getFullYear();
-/* جزيئات خفيفة */
+
 (function(){
   if(matchMedia('(prefers-reduced-motion:reduce)').matches)return;
   const cv=document.getElementById('fx'),x=cv.getContext('2d');let W,H,P=[];
